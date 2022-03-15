@@ -1,21 +1,12 @@
 function CriaCalculadora() {
-  
   this.display = document.querySelector(".display");
   this.btnClear = document.querySelector(".btn-clear");
 
-  this.inicia = function () {
-    this.clickBtn();
-  };
+  this.inicia = () => this.clickBtn();
+  this.clearDisplay = () => (this.display.value = "");
+  this.delUm = () => (this.display.value = this.display.value.slice(0, -1));
 
-  this.clearDisplay = function () {
-    this.display.value = "";
-  };
-
-  this.delUm = function () {
-    this.display.value = this.display.value.slice(0, -1);
-  };
-
-  this.equal = function () {
+  this.equal = () => {
     let resultado = this.display.value;
     try {
       resultado = eval(resultado);
@@ -49,12 +40,8 @@ function CriaCalculadora() {
       }.bind(this)
     );
   };
-  this.btnParaDisplay = function (valor) {
-    this.display.value += valor;
-  };
+  this.btnParaDisplay = (valor) => (this.display.value += valor);
 }
 
 const calculadora = new CriaCalculadora();
 calculadora.inicia();
-
-
