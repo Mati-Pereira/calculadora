@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mati-Pereira/Javascript/issues"
   },
-  "homepage": "https://github.com/Mati-Pereira/Javascript#readme"
+  "homepage": "https://github.com/Mati-Pereira/Javascript#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
