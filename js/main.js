@@ -1,4 +1,5 @@
 function CriaCalculadora() {
+  
   this.display = document.querySelector(".display");
   this.btnClear = document.querySelector(".btn-clear");
 
