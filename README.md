@@ -1,3 +1,3 @@
-# Javascript
+# Calculadora 😄
 
-Pequeno Projeto de Uma Calculadora
+### Pequeno Projeto de Uma Calculadora
