@@ -9,7 +9,7 @@ Uma calculadora simples.
 
 ## Demonstração
 
-colocar link site
+https://mati-pereira.github.io/calculadora/
 
 ## Stack utilizada
 
